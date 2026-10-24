@@ -8,13 +8,21 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 
+// const getInitialTheme = () => {
+//   try {
+//     const saved = localStorage.getItem('theme');
+//     if (saved) return saved === 'dark';
+//   } catch (e) { /* storage unavailable */ }
+//   return window.matchMedia('(prefers-color-scheme: dark)').matches;
+// };
 const getInitialTheme = () => {
   try {
     const saved = localStorage.getItem('theme');
     if (saved) return saved === 'dark';
   } catch (e) { /* storage unavailable */ }
-  return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  return true; // dark by default
 };
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(getInitialTheme);
