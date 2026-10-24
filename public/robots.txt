@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio-ndote-thengue-malvinas-projects.vercel.app/sitemap.xml
