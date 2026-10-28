@@ -12,7 +12,7 @@ export const profile = {
 export const skillGroups = [
   { title: 'Frontend', items: ['React', 'JavaScript', 'HTML / CSS', 'Bootstrap'] },
   { title: 'Mobile', items: ['React Native', 'Apache Cordova'] },
-  { title: 'Backend & data', items: ['Node.js', 'Express', 'PHP', 'fastAPI', 'MySQL'] },
+  { title: 'Backend & data', items: ['Node.js', 'Express', 'PHP', 'FastAPI', 'MySQL'] },
   { title: 'Tools', items: ['Git', 'GitHub'] },
 ];
 
@@ -23,6 +23,7 @@ export const projects = [
     description:
       'Crowdsourced medicine-availability platform for Cameroon: GPS-based pharmacy search, SMS alerts, patient pre-orders and a multi-tenant admin hierarchy with role-based access.',
     tags: ['Node.js', 'Express', 'MySQL', 'Sequelize', 'Cordova', 'JWT'],
+    github: 'https://github.com/malvina404/HOMEPHARMA'
   },
   {
     title: 'BusCam · TAC Express',
@@ -30,6 +31,7 @@ export const projects = [
     description:
       'Complete bus-ticket reservation system in pure PHP: booking engine with optimistic locking, QR-coded e-tickets, PDF download, JWT authentication and RBAC.',
     tags: ['PHP', 'JavaScript', 'JWT', 'HTML / CSS'],
+    github: 'https://github.com/malvina404/buscam',
   },
   {
     title: 'Live streaming module',
@@ -43,7 +45,7 @@ export const projects = [
     kind: 'Personal project',
     description:
       'Cross-platform mobile application for healthcare providers to monitor patient vitals, appointments and treatment plans in real time.',
-    tags: ['React Native', 'Firebase', 'Redux', 'fastAPI', 'Node.js'],
+    tags: ['React Native', 'Firebase', 'Redux', 'FastAPI', 'Node.js'],
     github: 'https://github.com/malvina404/patient-management-system',
   },
   {

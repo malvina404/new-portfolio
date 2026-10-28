@@ -19,6 +19,7 @@ const icons = {
   MySQL: <SiMysql />,
   Git: <FaGitAlt />,
   GitHub: <FaGithub />,
+  FastAPI: <FaFastApi />, // Using Node.js icon for FastAPI as a placeholder
 };
 
 const Skills = () => (
