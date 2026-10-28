@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import {
   FaReact, FaJs, FaHtml5, FaBootstrap, FaMobileAlt, FaNodeJs, FaPhp, FaGitAlt, FaGithub,
+  FaPython,
 } from 'react-icons/fa';
 import { SiExpress, SiMysql } from 'react-icons/si';
 import SectionTitle from './SectionTitle';
@@ -19,7 +20,7 @@ const icons = {
   MySQL: <SiMysql />,
   Git: <FaGitAlt />,
   GitHub: <FaGithub />,
-  FastAPI: <FaFastApi />, // Using Node.js icon for FastAPI as a placeholder
+  FastAPI: <FaPython />, // Using Node.js icon for FastAPI as a placeholder
 };
 
 const Skills = () => (
