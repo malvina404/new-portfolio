@@ -26,14 +26,14 @@ const About = () => (
       >
         <div className="about-text">
           <p>
-            I’m a software engineering student who enjoys turning real-world problems into
+            I’m a software engineer who enjoys turning real-world problems into
             working products. During my internship I built the backend, security model and
             mobile client of a crowdsourced medicine-availability platform, and with my team
             I delivered a complete bus-ticketing system.
           </p>
           <p>
-            I work across the stack — React and React Native on the front, Node.js and PHP on
-            the back — and I care about clean code, clear interfaces and software that works
+            I work across the stack React and React Native on the front, Node.js and PHP on
+            the back and I care about clean code, clear interfaces and software that works
             on the networks and devices people actually have. I speak French and English.
           </p>
         </div>

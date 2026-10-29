@@ -33,7 +33,7 @@ const Hero = () => {
           </h1>
           <p className="lead">
             {profile.role}. I build web and mobile products that solve real problems in
-            Cameroon — from medicine availability to bus ticketing.
+            Cameroon, from medicine availability to bus ticketing.
           </p>
 
           <div className="hero-cta">
@@ -68,7 +68,7 @@ const Hero = () => {
             onMouseLeave={tilt.onMouseLeave}
           >
             <div className="photo-ring" />
-            <img src="/profil.png" alt={profile.fullName} className="photo" />
+            <img src="/profile1.png" alt={profile.fullName} className="photo" />
             {chips.map((c) => (
               <div key={c.label} className="chip-pos" style={{ ...c.style, transform: `translateZ(${c.depth}px)` }}>
                 <motion.span

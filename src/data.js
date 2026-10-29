@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Ndote Thengue Malvina',
   fullName: 'Ndote Malvina La Blonde Thengue',
-  role: 'Software engineering student · Full-stack & mobile developer',
+  role: 'Software engineer · Full-stack & mobile developer',
   location: 'Bafoussam, Cameroon',
   linkedin: 'https://www.linkedin.com/in/malvina-la-blonde-ndote-thengue-37b18528a/',
   github: 'https://github.com/malvina404',
